@@ -71,7 +71,7 @@ const HomePage = (props) => {
     if (image) {
       setIsLoading(true);
       axios
-        .post("http://127.0.0.1:5000/catOrBird", formData, {
+        .post("https://d25otuver0t3le.cloudfront.net/catOrBird", formData, {
           headers: {
             "Content-Type": "multipart/form-data",
           },

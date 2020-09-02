@@ -66,7 +66,7 @@ const SpinnerC = styled.div`
 const Spinner = (props) => {
   return (
     // <SpinnerC>
-    <SpinnerC class="loader">Loading...</SpinnerC>
+    <SpinnerC className="loader">Loading...</SpinnerC>
     // </SpinnerC>
   );
 };

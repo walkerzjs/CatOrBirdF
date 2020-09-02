@@ -7,6 +7,7 @@ import Footer from "./footer";
 const HomePageC = styled.div`
   position: relative;
   height: 100vh;
+  min-height: 1000px;
   width: 100%;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
     url("/background_homepage.jpg");
