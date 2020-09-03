@@ -18,7 +18,7 @@ const SpinnerC = styled.div`
     font-size: 10px;
     margin: 8px auto;
     margin-bottom: 60px;
-    margin-top: -20px;
+    margin-top: 10px;
     position: relative;
     text-indent: -9999em;
     -webkit-transform: translateZ(0);

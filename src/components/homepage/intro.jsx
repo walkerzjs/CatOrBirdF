@@ -3,10 +3,15 @@ import styled from "styled-components";
 
 const IntroC = styled.div`
   position: absolute;
-  top: 150px;
+  /* min-width: 80vw; */
+  max-width: 1366px;
+  top: 100px;
   left: 50%;
   transform: translateX(-50%);
   color: white;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
   & h1 {
     font-size: 40px;
   }
@@ -16,10 +21,10 @@ const IntroC = styled.div`
 
   @media screen and (max-width: 600px) {
     & h1 {
-      font-size: 20px;
+      font-size: 30px;
     }
     & h2 {
-      font-size: 12px;
+      font-size: 15px;
     }
   }
 `;

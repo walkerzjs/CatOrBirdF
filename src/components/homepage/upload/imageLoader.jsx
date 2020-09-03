@@ -30,6 +30,7 @@ const ImageLoaderC_ = styled.div`
   & span {
     margin-left: 10px;
     display: inline-block;
+    word-break: break-all;
   }
 `;
 
